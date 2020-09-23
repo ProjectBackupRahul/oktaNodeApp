@@ -1,4 +1,4 @@
-# Node.js + Express Login Example
+# Node.js okta Authentication Application
 
 This example shows how to add Login to a Node.js application.
 
