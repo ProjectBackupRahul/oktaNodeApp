@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}, #{user.userinfo.name}!
+  form(method='POST' action='/logout')
+  
+    button(type='submit') Logout
+
+    form(method='POST' action="/url")
+    p Supply A Web page URL:
+     input(type="text" name="url" placeholder="Web URL")
+    button(type='submit') GetPDF
+
